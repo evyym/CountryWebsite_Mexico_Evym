@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.links a:hover {
+  background-color: maroon;
+}
+
+
+.hh {
+  height: 80vh;
+  background-image: url("mexico city.avif");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.ho {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 40px;
+  margin-left: 60px;
+  max-width: 500px;
+}
+
+.ho h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.ho p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
+
+.ht p{
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.h {
+  height: 50vh;
+  background-image: url("Flag_of_Mexico.svg_.webp");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+.he {
+  height: 50vh;
+  background-image: url("Tlatoani-.jpg");
+  background-size: cover;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button {
+  background: #c1272d;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #a81f25;
+}
+
+
+.content-wide {
+  padding: 50px;
+  text-align: center;
+}
+
+.content-wide p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.fa {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 40px;
+}
+
+.fb {
+  width: 260px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.fb img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.fb:hover {
+  background-color: #ddd;
+}
+
+
+.content {
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.bh {
+  height: 50vh;
+  background-image: url("mexican-culture.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.box {
+  background: #f2f2f2;
+  width: 220px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.box img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.box:hover {
+  background: #ddd;
+}
+
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
